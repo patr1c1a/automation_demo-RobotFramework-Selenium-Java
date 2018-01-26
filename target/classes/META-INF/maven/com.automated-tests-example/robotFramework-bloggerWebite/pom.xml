@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.automated-tests-example</groupId>
+	<artifactId>robotFramework-bloggerWebite</artifactId>
+	<version>0.0.1</version>
+	<description>Example project by Patricia E. Miguel where the home page of blogger.com is tested using Robot Framework + Selenium, using SeleniumLibrary by Hi-Fi for Java implementation.
+Developed with Eclipse Mars.2.
+Test cases passing as of January 26, 2018. Further changes in the web site undeer test could lead to test failures. This is only an example project to demonstrate how Robot Framework can be used for test automation.</description>
+	<url>https://www.linkedin.com/in/patriciamiguel/</url>
+	<name>Robot Framework automation example</name>
+	<properties>
+		<robot-tag>regression</robot-tag>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.8.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.hi-fi</groupId>
+			<artifactId>robotframework-seleniumlibrary</artifactId>
+			<version>3.7.1.3</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.robotframework</groupId>
+				<artifactId>robotframework-maven-plugin</artifactId>
+				<version>1.4.7</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<includes>
+						<include>${robot-tag}</include>
+					</includes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
