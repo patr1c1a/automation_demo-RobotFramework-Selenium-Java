@@ -4,9 +4,12 @@
 	<groupId>com.automated-tests-example</groupId>
 	<artifactId>robotFramework-bloggerWebsite</artifactId>
 	<version>0.0.1</version>
-	<description>Example project by Patricia E. Miguel where the home page of blogger.com is tested using Robot Framework + Selenium, using SeleniumLibrary by Hi-Fi for Java implementation.
+	<description>Example project by Patricia E. Miguel where the home page of blogger.com is tested using Robot Framework + Selenium, with SeleniumLibrary by Hi-Fi for Java implementation, and following the Page Object Model.
 Developed with Eclipse Mars.2.
-Test cases passing as of January 26, 2018. Further changes in the web site undeer test could lead to test failures. This is only an example project to demonstrate how Robot Framework can be used for test automation.</description>
+Test cases passing as of January 26, 2018. Further changes in the web site under test could lead to test failures. This is only an example project to demonstrate how Robot Framework can be used for test automation.
+	Step by step tutorial to build project can be found at https://github.com/patr1c1a/QA-articles/blob/master/Step%20by%20step%20project%20with%20Robot%20Framework%2BSelenium.pdf
+	Robot Framework automation basics can be read at https://github.com/patr1c1a/QA-articles/blob/master/Robot%20Framework%20and%20Selenium%20automation%20basics.pdf	
+	</description>
 	<url>https://www.linkedin.com/in/patriciamiguel/</url>
 	<name>Robot Framework automation example</name>
 	<properties>
