@@ -2,10 +2,10 @@
 
 #Variables used by the Home Page higher-level keywords.
 #Choose browser by setting ${BROWSER} variable value to either chrome or firefox.
-${BROWSER}						             chrome
-${HOMEPAGE URL}					             https://www.blogger.com
+${BROWSER}						                       chrome
+${HOMEPAGE URL}					                     https://www.blogger.com
 ${APPENDED URL REGEX}                        ^http[s]?://www\.blogger\.com(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+
-${HOMEPAGE TITLE}				             Blogger.com - Create a unique and beautiful blog. It’s easy and free.
+${HOMEPAGE TITLE}				                     Blogger.com - Create a unique and beautiful blog. It’s easy and free.
 ${HEADER SIGN IN BUTTON TEXT}                SIGN IN
 ${HERO HEADER TEXT}                          Publish your passions, your way
 ${HERO PARAGRAPH TEXT}                       Create a unique and beautiful blog. It’s easy and free.
@@ -89,10 +89,10 @@ ${SERBIAN}                                   sr
 ${SLOVAK}                                    sk
 ${SLOVENIAN}                                 sl  
 ${SPANISH LATIN AMERICA}                     es-419            
-${SPANISH SPAIN}                     	     es  
+${SPANISH SPAIN}                     	       es  
 ${SWAHILI}                                   sw
 ${SWEDISH}                                   sv
-${TAMIL}                    	             ta
+${TAMIL}                    	               ta
 ${TELUGU}                                    te
 ${THAI}                                      th
 ${TURKISH}                                   tr
