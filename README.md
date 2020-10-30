@@ -1,6 +1,4 @@
-# robotFramework-bloggerWebsite-
+# Automation demo project
 Automation example project using Robot Framework + Selenium on Java. Blogger website was used for demonstration.
 
-This is a very simple project that only tests the home page of the website by checking all elements exist and can be interacted with. It's used as a demonstration for the tutorial I published <a href="https://www.linkedin.com/pulse/create-project-using-eclipsemavenseleniumrobot-framework-miguel/">here</a> and it's not being mantained.
-
-For my article on Robot Framework basics <a href="https://www.linkedin.com/pulse/robot-framework-selenium-automation-basics-patricia-miguel-1">click here</a>.
+This is a very simple project that only tests the Blogger home page by checking that all elements exist and can be interacted with. It's used as a demonstration for the tutorial I published <a href="https://github.com/patr1c1a/QA-articles/blob/master/Step%20by%20step%20project%20with%20Robot%20Framework%2BSelenium.pdf">here</a> and it's not being mantained.
